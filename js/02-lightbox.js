@@ -10,6 +10,7 @@ listGalleryEl.insertAdjacentHTML("beforeend", elements);
 const lightbox = new SimpleLightbox(".gallery__link", {
   captionsData: "alt",
   captionDelay: 250,
+  captionPosition: "bottom",
 });
 
 function createGalleryImages(galleryItems) {
